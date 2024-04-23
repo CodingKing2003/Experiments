@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #282c34;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Watches container styles */
+  .watch-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual watch item styles */
+  .watch-item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  /* Image styles */
+  .watch-item img {
+    width: 100%;
+    max-width: 200px; /* Limit image width for small photos */
+  }
+  
+  /* Button styles */
+  .watch-item button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect on button */
+  .watch-item button:hover {
+    background-color: #333; /* Darken color on hover */
+  }
+  
